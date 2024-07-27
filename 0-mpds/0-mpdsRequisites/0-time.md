@@ -19,6 +19,7 @@ Aproximadamente has vivido:
 ~~~
 0. [Con sentencia declaración de variables (L)](../0-time/0-units/v0.0/app.js)
 * 2 soluciones para comparar: evitar números mágicos:
+
         1. [Con sentencia declaración de constantes (L)](../0-time/0-units/v0.1/app.js)
         2. [Con sentencia declaración de constantes (L)](../0-time/0-units/v0.2/app.js)
 ## 1-major
