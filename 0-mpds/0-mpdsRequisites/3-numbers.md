@@ -16,7 +16,7 @@ Dame un número:  76
 76 * 9 = 684
 76 * 10 = 760
 ~~~
-
+0. [Con sentencia de salida (L)](../3-numbers/0-multiplicationTable/v0.0/app.js)
 ## 1-integerDivision
 
 ### 1-integerDivision/v0
@@ -30,7 +30,7 @@ Dame el dividendo:  20
 Dame el divisor:  5
 20 / 5 = 4 y sobran 0
 ~~~
-
+0. [Con sentencia declaración de constantes (L)](../3-numbers/1-intergerDivision/v0.0/app.js)
 ## 2-percentage
 
 ### 2-percentage/v0
@@ -91,7 +91,8 @@ Dame la cantidad de céntimos:  123
 1 moneda(s) de 2
 1 moneda(s) de 1
 ~~~
-
+0. [Con sentencia* de asignación (L)](../3-numbers/5-changeCoins/v0.0/app.js)
+1. [Con sentencia declaración de constantes (L)](../3-numbers/5-changeCoins/v0.1/app.js)
 ### 5-changeCoins/v1
 ~~~
 Dame la cantidad de céntimos:  123

@@ -1,5 +1,4 @@
-//sentencia const
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
 
 const console = new Console();
 const side = console.readNumber("Dame el lado del cuadrado: ");

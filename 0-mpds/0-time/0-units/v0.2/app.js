@@ -1,5 +1,4 @@
-//sentencia const
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
 
 //números màgics -> constants amb identificadors en majúscules
 const YEARS_PER_MILLENIA = 1000;

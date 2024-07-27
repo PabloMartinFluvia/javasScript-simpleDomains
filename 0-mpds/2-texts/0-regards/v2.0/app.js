@@ -1,5 +1,4 @@
-//sentencia salida de datos
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
 
 const console = new Console();
 console.writeln("Hola, Mundo!!! "

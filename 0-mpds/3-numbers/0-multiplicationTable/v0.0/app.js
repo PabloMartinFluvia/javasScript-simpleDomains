@@ -1,6 +1,4 @@
-//sentencia salida de datos en la documentació
-//xo requereix sentencia d'entrada de datos + declaració de variable/constant
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
 
 const console = new Console();
 const number = console.readNumber("Dame un número: ");

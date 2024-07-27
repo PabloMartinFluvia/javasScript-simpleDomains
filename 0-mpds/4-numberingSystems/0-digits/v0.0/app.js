@@ -1,6 +1,5 @@
-//sentencia (operador) d'assignació
-//xo utilitza declaració de constants
-const { Console } = require("./console");
+//xo utilitza declaració de constants & operadors d'acumulació
+const { Console } = require("console-mpds");
 
 const console = new Console();
 let number = console.readNumber(`Dame un número entero: `);

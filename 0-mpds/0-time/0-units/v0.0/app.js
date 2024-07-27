@@ -1,5 +1,4 @@
-//sentencia de declaració de variables let
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
 
 const console = new Console();
 let years = console.readNumber("¿Qué años tienes? ");

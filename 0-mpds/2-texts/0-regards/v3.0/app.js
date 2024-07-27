@@ -1,5 +1,4 @@
-//expresion entrada de datos
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
 
 const console = new Console();
 console.writeln(`Hola, ${console.readString("Como te llamas?")}!!! :-)`);

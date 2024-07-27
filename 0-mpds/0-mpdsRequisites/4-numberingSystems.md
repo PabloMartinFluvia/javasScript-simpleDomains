@@ -9,7 +9,10 @@ Unidades: 5
 Decenas: 6
 Centenas: 0
 ~~~
+* Dos opciones para comparar:
 
+  0. [Con sentencia* de asignación (y declaración de constantes)(L)](../4-numberingSystems/0-digits/v0.0/app.js)
+  1. [Con operadores de acumulación (L)](../4-numberingSystems/0-digits/v0.1/app.js)
 ### 0-digits/v1
 ~~~
 Dame un número entero 76
