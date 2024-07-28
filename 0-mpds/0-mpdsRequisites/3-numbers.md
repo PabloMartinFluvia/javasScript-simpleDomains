@@ -31,6 +31,7 @@ Dame el divisor:  5
 20 / 5 = 4 y sobran 0
 ~~~
 - [.0: Con sentencia declaración de constantes (L)](../3-numbers/1-intergerDivision/v0.0/app.js)
+- [.05: Con reglas de precedencia y asociatividad (L)](../3-numbers/1-intergerDivision/v0.05/app.js)
 ## 2-percentage
 
 ### 2-percentage/v0
@@ -40,7 +41,7 @@ Dame el tanto por ciento (sin %):  21
 Dame la cantidad:  1000
 21%  · 1000 = 210
 ~~~
-
+- [.0: Con reglas de precedencia y asociatividad (L)](../3-numbers/2-percentage/v0.0/app.js)
 ## 3-even
 
 ### 3-even/v0
@@ -59,6 +60,7 @@ El numero 0 es par
 - 2 soluciones usando operadores distintos
   - [.0: operador tarnario y operadores aritmeticos](../3-numbers/3-even/v0.0/app.js)
   - [.1: operador tarnario y operadores de bits](../3-numbers/3-even/v0.1/app.js)
+- [.05: Con reglas de precedencia y asociatividad (L)](../3-numbers/3-even/v0.05/app.js)
 ### 4-validation/v.0
 ~~~
 Dame un valor en el intervalo [1, 10]: 0
@@ -81,6 +83,9 @@ Escribe un número?  -67
 El valor absoluto del número -67 es 67
 ~~~
 - [.0: con operador tarnario](../3-numbers/4-absoluteValue/v0.0/app.js)
+- 2 soluciones para comparar legibilidad vs necesidad de declarar var/consts:
+  - [.1: con reglas de precedencia y asociatividad (L)](../3-numbers/4-absoluteValue/v0.1/app.js)
+  - [.2: con reglas de precedencia y asociatividad (L)](../3-numbers/4-absoluteValue/v0.2/app.js)
 ## 5-changeCoins
 
 ### 5-changeCoins/v0

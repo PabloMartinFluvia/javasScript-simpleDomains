@@ -54,6 +54,7 @@ El año pasado tenías 32 años
 y el año que viene tendrás 34 años
 ~~~
 - [.0: Con operador ternario (L)](../0-time/2-sibilings/v0.0/app.js)
+- [.1: Con reglas de precedencia y asociatividad (L)](../0-time/2-sibilings/v0.1/app.js)
 ### 3-sumTimes/v0.0
 
 ~~~

@@ -1,5 +1,4 @@
-//regles de precedencia i asociativitat
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
 
 const console = new Console();
 const percentage = console.readNumber(`Dame el tanto por ciento (sin %): `) ;

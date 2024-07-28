@@ -1,5 +1,4 @@
-//regles de precedencia i asociativitat
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
 
 const console = new Console();
 const sideA = console.readNumber("Dame el 1º lado del triangulo: ");
