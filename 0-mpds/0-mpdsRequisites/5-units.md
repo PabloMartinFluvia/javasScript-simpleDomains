@@ -9,7 +9,7 @@ Introduce el denominador de la fracción: 3
 
 La fracción 2/3 invertida es la fracción 3/2
 ~~~
-
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/0-fraction/v0.e0/app.js)
 ### 0-fraction/0-1-inverse
 * Simplificando la fracción mediante el máximo común divisor (visto en el "Recursividad en la Ciencia" del tema "Patrones" del módulo de Fundamento) 
 ~~~
@@ -42,7 +42,7 @@ Introduce un exponente: 0
 
 La fracción 2/3 elevado a 0 es la fracción 1/1
 ~~~
-
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/0-fraction/v1.e0/app.js)
 ### 0-fraction/2-add
 ~~~
 Primera fracción:
@@ -54,7 +54,7 @@ Introduce el denominador de la fracción: 4
 
 La suma de la fracción 2/3 y la fracción 3/4 es la fracción 17/12
 ~~~
-
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/0-fraction/v2.e0/app.js)
 ### 0-fraction/3-substract
 ~~~
 Primera fracción:
@@ -64,9 +64,9 @@ Segunda fracción:
 Introduce el numerador de la fracción: 3
 Introduce el denominador de la fracción: 4
 
-La suma de la fracción 2/3 y la fracción 3/4 es la fracción -1/12
+La resta de la fracción 2/3 y la fracción 3/4 es la fracción -1/12
 ~~~
-
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/0-fraction/v3.e0/app.js)
 ### 0-fraction/4-multiply
 ~~~
 Primera fracción:
@@ -76,9 +76,9 @@ Segunda fracción:
 Introduce el numerador de la fracción: 3
 Introduce el denominador de la fracción: 4
 
-La suma de la fracción 2/3 y la fracción 3/4 es la fracción 6/12
+La multiplicación de la fracción 2/3 y la fracción 3/4 es la fracción 6/12
 ~~~
-
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/0-fraction/v4.e0/app.js)
 ### 0-fraction/5-divide
 ~~~
 Primera fracción:
@@ -88,9 +88,9 @@ Segunda fracción:
 Introduce el numerador de la fracción: 3
 Introduce el denominador de la fracción: 4
 
-La suma de la fracción 2/3 y la fracción 3/4 es la fracción 8/9
+La división de la fracción 2/3 y la fracción 3/4 es la fracción 8/9
 ~~~
-
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/0-fraction/v5.e0/app.js)
 ### 0-fraction
 ~~~
 Dame el numerador:  2
@@ -128,6 +128,8 @@ Introduce el máximo del intervalo (superior o igual al mínimo): 4
 
 La longitud del intervalo [4, 4] es 0
 ~~~
+
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/v0.e0/app.js)
 
 ### 1-interval/1-includes
 ~~~
@@ -170,6 +172,8 @@ Introduce un punto: 4
 El intervalo [4, 4] si incluye el punto 4
 ~~~
 
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/v1.e0/app.js)
+
 ### 1-interval/2-scale
 
 * Se mantiene el centro del intervalo dado
@@ -197,6 +201,9 @@ Introduce un factor de escala positivo: 0
 El intervalo [4, 10] con factor de escala 0 es el intervalo [7, 7]
 ~~~
 
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/v2.e0/app.js)
+  - Nota: Console, al leer numeros, hace parseInt por defecto
+
 ### 1-interval/3-shifted
 ~~~
 Introduce el mínimo del intervalo: 4
@@ -213,6 +220,8 @@ Introduce un factor de desplazamiento: -4
 
 El intervalo [4, 10] con factor de desplazamiento -4 es el intervalo [0, 6]
 ~~~
+
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/v3.e0/app.js)
 
 ### 1-interval/4-split
 ~~~
@@ -254,6 +263,8 @@ Introduce el máximo del intervalo (superior o igual al mínimo): -4
 El intervalo [-10, -4] simétrico al origen es [4, 10]
 ~~~
 
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/v5.e0/app.js)
+
 ### 1-interval/6-isIntersected
 ~~~
 Dame el mínimo: 2
@@ -271,7 +282,7 @@ Dame el máximo: 9
 No existe intersección entre los intervalos [2.0, 5.0] y [6.0, 9.0]
 ~~~
 
-
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/v6.e0/app.js)
 
 ### 1-interval/7-intersection
 ~~~
@@ -329,6 +340,9 @@ Introduce el máximo del intervalo (superior o igual al mínimo): 100
 El intervalo [4, 10] intersección con el intervalo [0, 100] será el intervalo [4, 10]
 ~~~
 
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/v7.e0/app.js)
+  - Precondición assumida: se asume que SI existe intersección entre los 2 intervalos proporcionados por el usuario, dado que los requisitos no especifican cuál es la salida deseada en caso de que no hubiese intersección. 
+
 ### 1-interval/8-union
 ~~~
 Primer intervalo:
@@ -385,6 +399,9 @@ Introduce el máximo del intervalo (superior o igual al mínimo): 100
 El intervalo [4, 10] intersección con el intervalo [0, 100] será el intervalo [0, 100]
 ~~~
 
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/v8.e0/app.js)
+  - Precondición assumida: se asume que SI existe intersección entre los 2 intervalos proporcionados por el usuario, dado que los requisitos no especifican cuál es la salida deseada en caso de que no hubiese intersección (entocnes la unión sería un conjunto de 2 intervalos, en lugar de un solo intervalo).
+
 ### 1-interval/v0
 ~~~
 Longitud: 104
@@ -426,6 +443,8 @@ Dame la ordenada de la coordenada:  0
 La coordenada (0, 2) está en el eje de abcisas y de ordenadas
 ~~~
 
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/2-coordinate/v0.e0/app.js)
+
 ### 2-coordinate/1-quadrant
 ~~~
 Dame la abcisa de la coordenada:  2
@@ -455,6 +474,8 @@ Dame la ordenada de la coordenada:  -2
 La coordenada (2, -2) está en el 4º cuadrante.
 ~~~
 
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/2-coordinate/v1.e0/app.js)
+
 ### 2-coordinate/2-isHorizontal
 ~~~
 Coordenada origen:
@@ -478,6 +499,8 @@ Dame la ordenada de la coordenada:  3
 La coordenada origen (2, 2) y la coordenada destino (2, 3) no es un movimiento horizontal  
 ~~~
 
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/2-coordinate/v2.0H.e0/app.js)
+
 ### 2-coordinate/2-isVertical
 ~~~
 Coordenada origen:
@@ -500,6 +523,8 @@ Dame la ordenada de la coordenada:  3
 
 La coordenada origen (2, 2) y la coordenada destino (2, 3) si es un movimiento vertical  
 ~~~
+
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/2-coordinate/v2.1V.e0/app.js)
 
 ### 2-coordinate/2-isKingMovement
 ~~~
@@ -545,6 +570,8 @@ Dame la ordenada de la coordenada:  5
 
 La coordenada origen (2, 2) y la coordenada destino (4, 5) no es un movimiento del rey  
 ~~~
+
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/2-coordinate/v2.2K.e0/app.js)
 
 ### 2-coordinate/2-isQueenMovement
 ~~~
@@ -624,6 +651,8 @@ Dame la ordenada de la coordenada:  8
 La coordenada origen (2, 2) y la coordenada destino (4, 8) no es un movimiento de la reina
 ~~~
 
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/2-coordinate/v2.3Q.e0/app.js)
+
 ### 2-coordinate/2-isHorseMovement
 ~~~
 Coordenada origen:
@@ -669,6 +698,7 @@ Dame la ordenada de la coordenada:  8
 La coordenada origen (2, 2) y la coordenada destino (4, 8) no es un movimiento del caballo
 ~~~
 
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/2-coordinate/v2.4H.e0/app.js)
 
 ### 2-coordinate/v0
 ~~~
@@ -875,6 +905,8 @@ Dame el año: 2022
 La fecha 2022/2022/2022 no es válida
 ~~~
 
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/3-date/v0.e0/app.js)
+
 ### 3-date/2-previous
 ~~~
 Dame el día: 12
@@ -899,6 +931,8 @@ Dame el año: 12
 
 La fecha 1/4/12 y la siguiente es 30/3/12
 ~~~
+
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/3-date/v2.e0/app.js)
 
 ### 3-date/v0
 ~~~
@@ -947,3 +981,4 @@ Dame los segundos: 30
 La suma es 71:11:10
 ~~~
 
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/4-time/v0.e0/app.js)
