@@ -8,10 +8,9 @@ Dame el lado del cuadrado:  17
 Perímetro: 68
 Area: 289
 ~~~
-* 2 soluciones para comparar legibilidad vs reducción de la complejidad:
-
-        0. [Con sentencia declaración de constantes (L)](../1-space/0-square/v0.0/app.js)
-        1. [Con sentencia declaración de constantes (L)](../1-space/0-square/v0.1/app.js)
+- 2 soluciones para comparar legibilidad vs reducción de la complejidad:
+  - [.0: Con sentencia declaración de constantes (L)](../1-space/0-square/v0.0/app.js)
+  - [.1: Con sentencia declaración de constantes (L)](../1-space/0-square/v0.1/app.js)
 ## 1-rectangle
 
 ### 1-rectangle/v0

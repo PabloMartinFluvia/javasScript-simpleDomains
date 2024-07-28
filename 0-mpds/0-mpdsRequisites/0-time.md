@@ -17,11 +17,10 @@ Aproximadamente has vivido:
         27856800 minutos
         1671408000 segundos
 ~~~
-0. [Con sentencia declaración de variables (L)](../0-time/0-units/v0.0/app.js)
-* 2 soluciones para comparar: evitar números mágicos:
-
-        1. [Con sentencia declaración de constantes (L)](../0-time/0-units/v0.1/app.js)
-        2. [Con sentencia declaración de constantes (L)](../0-time/0-units/v0.2/app.js)
+- [.0: Con sentencia declaración de variables (L)](../0-time/0-units/v0.0/app.js)
+- 2 soluciones para comparar: evitar números mágicos:    
+  - [.1: Con sentencia declaración de constantes (L)](../0-time/0-units/v0.1/app.js)
+  - [.2: Con sentencia declaración de constantes (L)](../0-time/0-units/v0.2/app.js)
 ## 1-major
 
 ### 1-major/v0
@@ -33,7 +32,9 @@ No eres mayor de edad
 Qué años tienes?  18
 Sí eres mayor de edad
 ~~~
-
+- 2 soluciones para comparar: evitar números mágicos y mejorar legibilidad:
+  - [.0: Con operador ternario (L)](../0-time/1-major/v0.0/app.js)
+  - [.1: Con operador ternario (L)](../0-time/1-major/v0.1/app.js)
 ## 2-sibilings
 
 ### 2-sibilings/v0
@@ -52,7 +53,7 @@ Dame tu edad:  33
 El año pasado tenías 32 años
 y el año que viene tendrás 34 años
 ~~~
-
+- [.0: Con operador ternario (L)](../0-time/2-sibilings/v0.0/app.js)
 ### 3-sumTimes/v0.0
 
 ~~~

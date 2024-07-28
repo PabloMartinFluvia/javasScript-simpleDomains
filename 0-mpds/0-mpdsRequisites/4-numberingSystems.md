@@ -9,10 +9,8 @@ Unidades: 5
 Decenas: 6
 Centenas: 0
 ~~~
-* Dos opciones para comparar:
-
-  0. [Con sentencia* de asignación (y declaración de constantes)(L)](../4-numberingSystems/0-digits/v0.0/app.js)
-  1. [Con operadores de acumulación (L)](../4-numberingSystems/0-digits/v0.1/app.js)
+- [.0: Con sentencia* de asignación (y declaración de constantes)(L)](../4-numberingSystems/0-digits/v0.0/app.js)
+- [.1: Con operadores de acumulación (L)](../4-numberingSystems/0-digits/v0.1/app.js)
 ### 0-digits/v1
 ~~~
 Dame un número entero 76
@@ -89,7 +87,8 @@ El número 0 no es palidromo
 Damen un número inferior a 16 en binario:  1101
 El número 1101 binario corresponde con el número 13 decimal
 ~~~
-
+- [.0: Con operadores de bits (L)](../4-numberingSystems/3-binaryToDecimal/v0.0/app.js)
+- [.1: Con operadores de acumulación (L)](../4-numberingSystems/3-binaryToDecimal/v0.1/app.js)
 ### 3-binaryToDecimal/v1
 ~~~
 Damen un número en binario:  1101
@@ -103,7 +102,8 @@ El número 1101 binario corresponde con el número 13 decimal
 Dame un número inferior a 16:  8
 Bits: 0001
 ~~~
-
+- [.0: Con operadores de bits (L)](../4-numberingSystems/4-decimalToBinary/v0.0/app.js)
+- [.1: Con operadores de acumulación (L)](../4-numberingSystems/4-decimalToBinary/v0.1/app.js)
 ### 4-decimalToBinary/v1
 ~~~
 Dame un número decimal:  13

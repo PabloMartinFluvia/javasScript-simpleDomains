@@ -1,4 +1,3 @@
-//xo utilitza declaració de constants & operadors d'acumulació
 const { Console } = require("console-mpds");
 
 const console = new Console();

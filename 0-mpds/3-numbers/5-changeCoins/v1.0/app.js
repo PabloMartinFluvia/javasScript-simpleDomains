@@ -1,5 +1,4 @@
-//operador ternari
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
 
 let console = new Console();
 let amount = console.readNumber("Dame la cantidad de céntimos: ");

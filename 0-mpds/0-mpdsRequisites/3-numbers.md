@@ -16,7 +16,7 @@ Dame un número:  76
 76 * 9 = 684
 76 * 10 = 760
 ~~~
-0. [Con sentencia de salida (L)](../3-numbers/0-multiplicationTable/v0.0/app.js)
+- [.0: Con sentencia de salida (L)](../3-numbers/0-multiplicationTable/v0.0/app.js)
 ## 1-integerDivision
 
 ### 1-integerDivision/v0
@@ -30,7 +30,7 @@ Dame el dividendo:  20
 Dame el divisor:  5
 20 / 5 = 4 y sobran 0
 ~~~
-0. [Con sentencia declaración de constantes (L)](../3-numbers/1-intergerDivision/v0.0/app.js)
+- [.0: Con sentencia declaración de constantes (L)](../3-numbers/1-intergerDivision/v0.0/app.js)
 ## 2-percentage
 
 ### 2-percentage/v0
@@ -56,7 +56,9 @@ El numero 2 es par
 Escribe un número?  0
 El numero 0 es par
 ~~~
-
+- 2 soluciones usando operadores distintos
+  - [.0: operador tarnario y operadores aritmeticos](../3-numbers/3-even/v0.0/app.js)
+  - [.1: operador tarnario y operadores de bits](../3-numbers/3-even/v0.1/app.js)
 ### 4-validation/v.0
 ~~~
 Dame un valor en el intervalo [1, 10]: 0
@@ -78,7 +80,7 @@ El valor absoluto del número 76 es 76
 Escribe un número?  -67
 El valor absoluto del número -67 es 67
 ~~~
-
+- [.0: con operador tarnario](../3-numbers/4-absoluteValue/v0.0/app.js)
 ## 5-changeCoins
 
 ### 5-changeCoins/v0
@@ -91,8 +93,8 @@ Dame la cantidad de céntimos:  123
 1 moneda(s) de 2
 1 moneda(s) de 1
 ~~~
-0. [Con sentencia* de asignación (L)](../3-numbers/5-changeCoins/v0.0/app.js)
-1. [Con sentencia declaración de constantes (L)](../3-numbers/5-changeCoins/v0.1/app.js)
+- [.0: Con sentencia* de asignación (L)](../3-numbers/5-changeCoins/v0.0/app.js)
+- [.1: Con sentencia declaración de constantes (L)](../3-numbers/5-changeCoins/v0.1/app.js)
 ### 5-changeCoins/v1
 ~~~
 Dame la cantidad de céntimos:  123
@@ -101,7 +103,8 @@ Dame la cantidad de céntimos:  123
 1 moneda(s) de 2 
 1 moneda(s) de 1 
 ~~~
-
+- [.0: con operador tarnario](../3-numbers/5-changeCoins/v1.0/app.js)
+- [.1: con operadores de acumulación](../3-numbers/5-changeCoins/v1.1/app.js)
 ## 6-prime
 
 ### 6-prime/v0

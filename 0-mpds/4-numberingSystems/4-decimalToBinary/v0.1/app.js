@@ -1,5 +1,4 @@
-//operadors d'acumulació
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
 
 const console = new Console();
 let x = console.readNumber("Dame un número inferior a 16: ");
