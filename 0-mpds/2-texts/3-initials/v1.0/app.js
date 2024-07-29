@@ -1,4 +1,4 @@
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
 
 const console = new Console();
 const AMOUNT = 3;
@@ -17,7 +17,8 @@ for (let j = 0; j < AMOUNT; j++) {
   for (let i = iBeginWord; i <= iEndWord; i++) {
     msg += input[i];
   }
-  if (i !== AMOUNT) {
+  //if (i !== AMOUNT) { //error en (L)
+  if (j < AMOUNT - 1) { //Corrección: si aún NO estamos en la ultima iteración
     msg += ` `;
   }
   iBeginWord = iEndWord + 1;

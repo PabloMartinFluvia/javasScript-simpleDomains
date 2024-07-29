@@ -17,6 +17,11 @@ Dame un número:  76
 76 * 10 = 760
 ~~~
 - [.0: Con sentencia de salida (L)](../3-numbers/0-multiplicationTable/v0.0/app.js)
+- [.4: con sentencias iterativas(L)](../3-numbers/0-multiplicationTable/v0.4/app.js)
+- 3 soluciones que funcionan, pero la correcta es la anterior (con un 'for'):
+  - [.1: con sentencia secuencial (L)](../3-numbers/0-multiplicationTable/v0.1/app.js)
+  - [.2: con sentencia secuencial (L)](../3-numbers/0-multiplicationTable/v0.2/app.js)
+  - [.3: con sentencia secuencial (L)](../3-numbers/0-multiplicationTable/v0.3/app.js)
 ## 1-integerDivision
 
 ### 1-integerDivision/v0
@@ -62,9 +67,9 @@ El numero 0 es par
   - [.1: operador tarnario y operadores de bits(L)](../3-numbers/3-even/v0.1/app.js)
 - [.05: Con reglas de precedencia y asociatividad (L)](../3-numbers/3-even/v0.05/app.js)
 - 3 soluciones, para comparar como evitar codigo duplicado y aprovechar la inicialización
-  - [.2: sentencia if (L)](../3-numbers/3-even/v0.2/app.js)
-  - [.3: sentencia if (L)](../3-numbers/3-even/v0.3/app.js)
-  - [.4: sentencia if (L)](../3-numbers/3-even/v0.4/app.js)
+  - [.2: sentencia alternativa (L)](../3-numbers/3-even/v0.2/app.js)
+  - [.3: sentencia alternativa (L)](../3-numbers/3-even/v0.3/app.js)
+  - [.4: sentencia alternativa (L)](../3-numbers/3-even/v0.4/app.js)
 ### 4-validation/v.0
 ~~~
 Dame un valor en el intervalo [1, 10]: 0
@@ -74,6 +79,8 @@ Error!!! No está dentro del intervalo [1, 10] ! 8-o
 Dame un valor en el intervalo [1, 10]: 5
 Gracias!!! Has escogido el 5
 ~~~
+
+- [.0: con sentencia iterativa (L)](../3-numbers/4-validation/v0.0/app.js)
 
 ## 4-absoluteValue
 
@@ -86,11 +93,11 @@ El valor absoluto del número 76 es 76
 Escribe un número?  -67
 El valor absoluto del número -67 es 67
 ~~~
-- [.0: con operador tarnario](../3-numbers/4-absoluteValue/v0.0/app.js)
+- [.0: con operador tarnario(L)](../3-numbers/4-absoluteValue/v0.0/app.js)
 - 2 soluciones para comparar legibilidad vs necesidad de declarar var/consts:
   - [.1: con reglas de precedencia y asociatividad (L)](../3-numbers/4-absoluteValue/v0.1/app.js)
   - [.2: con reglas de precedencia y asociatividad (L)](../3-numbers/4-absoluteValue/v0.2/app.js)
-- [.3: sentencia if (L)](../3-numbers/4-absoluteValue/v0.3/app.js)
+- [.3: sentencia alternativa (L)](../3-numbers/4-absoluteValue/v0.3/app.js)
 ## 5-changeCoins
 
 ### 5-changeCoins/v0
@@ -113,7 +120,7 @@ Dame la cantidad de céntimos:  123
 1 moneda(s) de 2 
 1 moneda(s) de 1 
 ~~~
-- [.0: con operador tarnario](../3-numbers/5-changeCoins/v1.0/app.js)
+- [.0: con operador ternario](../3-numbers/5-changeCoins/v1.0/app.js)
 - [.1: con operadores de acumulación](../3-numbers/5-changeCoins/v1.1/app.js)
 ## 6-prime
 
@@ -122,17 +129,24 @@ Dame la cantidad de céntimos:  123
 Dame un número positivo:  12
 El número 12 no es primo
 ~~~
+
+- [.0: con sentencia secuencial (L)](../3-numbers/6-prime/v0.0/app.js)
+
 ### 6-prime/v1
 ~~~
 Dame un número positivo:  12
 La suma de los primos en los primeros 12 números es 28
 ~~~
 
+- [.0: con sentencia secuencial (L)](../3-numbers/6-prime/v1.0/app.js)
+
 ### 6-prime/v2
 ~~~
 Dame un número positivo:  12
 La suma de los primeros 12 primos es 197
 ~~~
+
+- [.0: con sentencia secuencial (L)](../3-numbers/6-prime/v2.0/app.js)
 
 ### 6-prime/v3
 ~~~
@@ -176,6 +190,8 @@ Dame un número positivo:  12
 El número 12 no es perfecto
 ~~~
 
+- [.0: con sentencia secuencial (L)](../3-numbers/7-perfect/v0.0/app.js)
+
 ### 7-perfect/v1
 ~~~
 Dame una posición:  1
@@ -208,6 +224,8 @@ Dame un número:  221
 Dame otro número:  283
 Los números 221 y 283 si son amigos
 ~~~
+
+- [.0: con sentencia secuencial (L)](../3-numbers/8-friends/v0.0/app.js)
 
 ### 8-friends/v1
 ~~~
@@ -244,6 +262,9 @@ El factorial de 4 es 24
 Dame un número (0-20):  5
 El factorial de 5 es 120
 ~~~
+
+- [.0: con sentencia iterativa (L)](../3-numbers/9-factorial/v0.0/app.js)
+
 ## 10-fibonacci
 
 ### 10-fibonacci/v0
@@ -259,6 +280,9 @@ El término de la serie de Fibonacci de 4 es 3
 Dame una posición:  5
 El término de la serie de Fibonacci de 5 es 5
 ~~~
+
+- [.0: con sentencia secuencial (L)](../3-numbers/10-fibonacci/v0.0/app.js)
+
 ## 11-power
 
 ### 11-power/v0
@@ -272,6 +296,9 @@ Dame una base:  2
 Dame un exponente:  4
 La base 2 elevada al exponente 4 es 16
 ~~~
+
+- [.0: con sentencia secuencial (L)](../3-numbers/11-power/v0.0/app.js)
+
 ## 4-trianguloPascal/v0
 
 ![](./images/trianguloPascal.png)

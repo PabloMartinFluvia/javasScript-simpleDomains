@@ -55,14 +55,14 @@ y el año que viene tendrás 34 años
 ~~~
 - [.0: Con operador ternario (L)](../0-time/2-sibilings/v0.0/app.js)
 - [.1: Con reglas de precedencia y asociatividad (L)](../0-time/2-sibilings/v0.1/app.js)
-- [.2: Con sentencia if (L)](../0-time/2-sibilings/v0.2/app.js)
+- [.2: Con sentencias alternativas (L)](../0-time/2-sibilings/v0.2/app.js)
 ### 3-sumTimes/v0.0
 
 ~~~
 Dime la hora actual [0-23]:  15
 Dime los minutos actuales [0-59]:  05
 Dime cuantas horas necesitas [0-23]:  8
-Dime los minutos necesitas [0-59]:  
-10
+Dime los minutos necesitas [0-59]:  10
 Serán las 23:15
 ~~~
+- [.0: con sentencia secuencial (L)](../0-time/3-sumTimes/v0.0/app.js)

@@ -263,6 +263,11 @@ Dame un valor (. para finalizar):  .
 En la serie no se encuentra el valor 13
 ~~~
 
+- [.0: con sentencia secuencial (L)](../6-collections/5-includes/v0.0/app.js)
+- 2 soluciones para comparar:
+  - [.1: con arrays (L)](../6-collections/5-includes/v0.1/app.js)
+  - [.2: con arrays (L)](../6-collections/5-includes/v0.2/app.js)
+
 ## 4-permutations
 
 ### v.1

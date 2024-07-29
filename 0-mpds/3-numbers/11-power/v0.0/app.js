@@ -1,18 +1,18 @@
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
 
 const console = new Console();
 const base = console.readNumber("Dame una base: ");
 let exponent = console.readNumber("Dame un exponente: ");
-let inverse = exponent < 0;
-if (inverse) {
+let isNegativeExponent = exponent < 0;
+if (isNegativeExponent) {
   exponent *= -1;
 }
-let power = 1;
-for (let i = 0; i < exponent; i++) {
-  power *= base;
+let powered = 1;
+for (let i = 1; i <= exponent; i++) {
+  powered *= base;
 }
-if (inverse){
-  power = 1/power;
+if (isNegativeExponent){
+  powered = 1/powered;
   exponent *= -1;
 }
-console.writeln(`La base ${base} elevada al exponente ${exponent} es ${power}`);
+console.writeln(`La base ${base} elevada al exponente ${exponent} es ${powered}`);

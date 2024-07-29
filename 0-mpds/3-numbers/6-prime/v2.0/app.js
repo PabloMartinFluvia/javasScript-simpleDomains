@@ -1,23 +1,24 @@
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
 
 const console = new Console();
-const amount = console.readNumber(`Dame un número positivo: `);
+const input = console.readNumber(`Dame un número positivo: `);
+//hay que encontrar los N primeros primos y sumarlos (donde N = amount)
 let sum = 0;
-let number = 1;
-let primes = 0;
+let numEvaluated = 1;
+let primesFound = 0;
 do {
   let isPrime = false;
-  if (number >= 2) {
-    let next = 2;
-    while (number % next != 0) {
-      next++;
+  if (numEvaluated >= 2) {
+    let divisor = 2;
+    while (numEvaluated % divisor !== 0) {
+      divisor++;
     }
-    isPrime = number == next;
+    isPrime = numEvaluated === divisor;
   }
   if (isPrime) {
-    sum += number;
-    primes++;
+    sum += numEvaluated;
+    primesFound++;
   }
-  number++;
-} while (primes < amount);
-console.writeln(`La suma de los primeros ${amount} primos es ${sum}`);
+  numEvaluated++;
+} while (primesFound < input);
+console.writeln(`La suma de los primeros ${input} primos es ${sum}`);

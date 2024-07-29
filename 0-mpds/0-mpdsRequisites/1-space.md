@@ -52,6 +52,9 @@ Dame el 3º lado del triangulo:  1
 Los lados 6, 5 y 1 NO forman un triangulo
 ~~~
 - [.0: con reglas de precedencia y asociatividad (L + me)](../1-space/2-triangle/v0.0/app.js)
+- 2 soluciones para comparar: repetición de código y aprovechar inicializaciones
+  - [.1: con sentencia secuencial (L)](../1-space/2-triangle/v0.1/app.js)
+  - [.2: con sentencia secuencial (L)](../1-space/2-triangle/v0.2/app.js)
 ## 3-circle 
 
 ### 3-circle/v0

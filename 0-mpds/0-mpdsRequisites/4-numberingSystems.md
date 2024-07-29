@@ -11,6 +11,7 @@ Centenas: 0
 ~~~
 - [.0: Con sentencia* de asignación (y declaración de constantes)(L)](../4-numberingSystems/0-digits/v0.0/app.js)
 - [.1: Con operadores de acumulación (L)](../4-numberingSystems/0-digits/v0.1/app.js)
+- [.2: con arrays (L)](../4-numberingSystems/0-digits/v0.2/app.js)
 ### 0-digits/v1
 ~~~
 Dame un número entero 76
@@ -89,11 +90,14 @@ El número 1101 binario corresponde con el número 13 decimal
 ~~~
 - [.0: Con operadores de bits (L)](../4-numberingSystems/3-binaryToDecimal/v0.0/app.js)
 - [.1: Con operadores de acumulación (L)](../4-numberingSystems/3-binaryToDecimal/v0.1/app.js)
+
 ### 3-binaryToDecimal/v1
 ~~~
 Damen un número en binario:  1101
 El número 1101 binario corresponde con el número 13 decimal
 ~~~
+
+- [.0: con sentencia secuencial (L)](../4-numberingSystems/3-binaryToDecimal/v1.0/app.js)
 
 ## 4-decimalToBinary
 
@@ -109,6 +113,8 @@ Bits: 0001
 Dame un número decimal:  13
 Formato binario:  0000 0000 0000 0000 0000 0000 0000 1101
 ~~~
+
+- [.0: con sentencia secuencial (L)](../4-numberingSystems/4-decimalToBinary/v1.0/app.js)
 
 ### 4-decimalToBinary/v2
 ~~~

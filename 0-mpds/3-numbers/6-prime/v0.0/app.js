@@ -1,13 +1,15 @@
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
 
 const console = new Console();
-let number = console.readNumber(`Dame un número positivo: `);
+let numEvaluated = console.readNumber(`Dame un número positivo (mayor que 1): `);
+//precondición: los números primos són > 1
 let isPrime = false;
-if (number >= 2) {
-  let next = 2;
-  while (number % next != 0) {
-    next++;
+if (numEvaluated >= 2) {
+  let divisor = 2;
+  while (numEvaluated % divisor !== 0) { //bucle seguro que termina cuando, next === number, ya que number % number === 0
+    divisor++;
   }
-  isPrime = number == next;
+  //si el bucle se termina antes que next alcanze a number -> se ha encontrado un divisor >= 2 y < que el mismo
+  isPrime = numEvaluated === divisor;
 }
-console.writeln(`El número ${number} ${isPrime ? `si` : `no`} es primo`);
+console.writeln(`El número ${numEvaluated} ${isPrime ? `si` : `no`} es primo`);

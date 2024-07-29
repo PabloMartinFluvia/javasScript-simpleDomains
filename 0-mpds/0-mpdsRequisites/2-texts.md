@@ -57,7 +57,10 @@ me llamo Lucy, me llamo Lucy, me llamo Lucy!!!
 me llamo Lucy, me llamo Lucy!!
 me llamo Lucy!
 ~~~
-- [.0: Con sentencia declaración de constantes (L)](../2-texts/1-echo/v1.0/app.js)
+- 2 soluciones, para comparar legibilidad:
+  - [.0: Con sentencia declaración de constantes (L)](../2-texts/1-echo/v1.0/app.js)
+  - [.1: Con sentencia declaración de constantes (L)](../2-texts/1-echo/v1.1/app.js)
+- [.2: con sentencia secuencial (L+me)](../2-texts/1-echo/v1.2/app.js)
 ## 2-morseTranlator
 
 ### 2-morseTranlator/v0
@@ -72,12 +75,20 @@ se traduce a:"--.- ..- . "
 Introduce 3 palabras separadas por varios espacios:  Universo   Santa   Tecla  
 .Universo Santa Tecla.
 ~~~
+- 3 versiones iniciales pera comparar (sin emplear la sentencia secuencial)
+  - [.0: con sentencias iterativas (L)](../2-texts/3-initials/v0.0/app.js)
+  - [.e0: mi variación, siguiendo la idea propuesta por Luís (ME)](../2-texts/3-initials/v0.e0/app.js)
+  - [.e1: mi versión (ME)](../2-texts/3-initials/v0.e1/app.js)
+- [.1: con sentencia secuencial (L)](../2-texts/3-initials/v1.0/app.js)
 
 ### 5-vowels/v.0
 ~~~
 ¿Dame un mensaje terminado en "."?:  Vale.
 Tu mensaje "Vale." tiene 4 caracteres significativos, sin contar el punto final!
 ~~~
+
+- Solución .0 en programación estructurada se ha eliminado de la documentación porque no le gustaba(L)
+  - [.e0: con sentencias iterativas (ME corretgint L)](../2-texts/5-vowels/v0.e0/app.js)
 
 ## 3-curriculum
 

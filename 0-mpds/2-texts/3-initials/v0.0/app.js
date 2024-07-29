@@ -1,22 +1,23 @@
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
 
 const console = new Console();
 let input = console.readString("Introduce 3 palabras separadas por varios espacios: ");
+
 let iBeginFirstWord = 0;
 while (input[iBeginFirstWord] === ` `) //{
   iBeginFirstWord++;
 //}
 let iEndFirstWord = iBeginFirstWord + 1;
-while (input[iEndFirstWord] !== ` ` && iEndFirstWord < input.length) //{
+while (input[iEndFirstWord] !== ` ` && iEndFirstWord < input.length) //{ 
   iEndFirstWord++;
 //}
-iEndFirstWord--;
+iEndFirstWord--; 
 let msg = ``;
 for (let i = iBeginFirstWord; i <= iEndFirstWord; i++) //{
   msg += input[i];
 //}
 
-let iBeginSecondWord = iEndFirstWord + 1;
+let iBeginSecondWord = iEndFirstWord + 1; 
 while (input[iBeginSecondWord] === ` `) //{
   iBeginSecondWord++;
 //}

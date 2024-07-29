@@ -1,19 +1,23 @@
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
 
 const console = new Console();
-const amount = console.readNumber(`Dame un número positivo: `);
+const input = console.readNumber(`Dame un número positivo: `);
+//hay que encontrar los primos que hay hasta N, y luego sumarlos (N = amount)
 let sum = 0;
-for(let i=1; i<=amount; i++){
+for(let numEvaluated=1; numEvaluated<=input; numEvaluated++){
+  //mismo algoritmo que en v0.1, para ver si 'i' es primo
+  //precondición: asume que 1 no es un número primo -> si amount és 1 -> result 0
   let isPrime = false;
-  if (i >= 2) {
-    let next = 2;
-    while (i % next != 0) {
-      next++;
+  if (numEvaluated >= 2) {
+    let divisor = 2;
+    while (numEvaluated % divisor !== 0) {
+      divisor++;
     }
-    isPrime = i == next;
+    isPrime = numEvaluated === divisor;
   }
+
   if (isPrime){
-    sum += i;
+    sum += numEvaluated;
   }
 }
-console.writeln(`La suma de los primos en los primeros ${amount} números es ${sum}`);
+console.writeln(`La suma de los primos en los primeros ${input} números es ${sum}`);

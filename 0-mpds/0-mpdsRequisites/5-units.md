@@ -475,6 +475,11 @@ La coordenada (2, -2) está en el 4º cuadrante.
 ~~~
 
 - [.e0: ejercicio con solo programación imperativa (ME)](../5-units/2-coordinate/v1.e0/app.js)
+- 3 soluciones para comparar distintas maneras de hacerlo:
+  - [.0: con sentencia secuencial (L)](../5-units/2-coordinate/1-quadrants/v0.0/app.js)
+  - [.1: con sentencia secuencial (L)](../5-units/2-coordinate/1-quadrants/v0.1/app.js)
+  - [.2: con sentencia secuencial (L)](../5-units/2-coordinate/1-quadrants/v0.2/app.js)
+  - [.e0: ejercicio con sentencia secuencial (L)](../5-units/2-coordinate/1-quadrants/v0.e0/app.js)
 
 ### 2-coordinate/2-isHorizontal
 ~~~
