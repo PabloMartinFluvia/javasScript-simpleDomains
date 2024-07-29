@@ -58,9 +58,13 @@ Escribe un número?  0
 El numero 0 es par
 ~~~
 - 2 soluciones usando operadores distintos
-  - [.0: operador tarnario y operadores aritmeticos](../3-numbers/3-even/v0.0/app.js)
-  - [.1: operador tarnario y operadores de bits](../3-numbers/3-even/v0.1/app.js)
+  - [.0: operador tarnario y operadores aritmeticos(L)](../3-numbers/3-even/v0.0/app.js)
+  - [.1: operador tarnario y operadores de bits(L)](../3-numbers/3-even/v0.1/app.js)
 - [.05: Con reglas de precedencia y asociatividad (L)](../3-numbers/3-even/v0.05/app.js)
+- 3 soluciones, para comparar como evitar codigo duplicado y aprovechar la inicialización
+  - [.2: sentencia if (L)](../3-numbers/3-even/v0.2/app.js)
+  - [.3: sentencia if (L)](../3-numbers/3-even/v0.3/app.js)
+  - [.4: sentencia if (L)](../3-numbers/3-even/v0.4/app.js)
 ### 4-validation/v.0
 ~~~
 Dame un valor en el intervalo [1, 10]: 0
@@ -86,6 +90,7 @@ El valor absoluto del número -67 es 67
 - 2 soluciones para comparar legibilidad vs necesidad de declarar var/consts:
   - [.1: con reglas de precedencia y asociatividad (L)](../3-numbers/4-absoluteValue/v0.1/app.js)
   - [.2: con reglas de precedencia y asociatividad (L)](../3-numbers/4-absoluteValue/v0.2/app.js)
+- [.3: sentencia if (L)](../3-numbers/4-absoluteValue/v0.3/app.js)
 ## 5-changeCoins
 
 ### 5-changeCoins/v0
