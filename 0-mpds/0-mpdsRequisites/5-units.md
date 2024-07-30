@@ -10,6 +10,7 @@ Introduce el denominador de la fracción: 3
 La fracción 2/3 invertida es la fracción 3/2
 ~~~
 - [.e0: ejercicio con solo programación imperativa (ME)](../5-units/0-fraction/v0.e0/app.js)
+
 ### 0-fraction/0-1-inverse
 * Simplificando la fracción mediante el máximo común divisor (visto en el "Recursividad en la Ciencia" del tema "Patrones" del módulo de Fundamento) 
 ~~~
@@ -25,6 +26,8 @@ Introduce el denominador de la fracción: 5
 
 La fracción 2/5 invertida es la fracción 5/2
 ~~~
+
+- [.e0: ejercicio con solo programación estructurada sin arrays (ME)](../5-units/0-fraction/v01.e0/app.js)
 
 ### 0-fraction/1-power
 ~~~
@@ -240,6 +243,8 @@ Introduce una cantidad positiva de intervalos: 2
 
 El intervalo [4, 10] dividido en 2 intervalos son [4, 7] y [7, 10]
 ~~~
+
+- [.e0: ejercicio con solo programación estructurada sin arrays (ME)](../5-units/1-interval/v4.e0/app.js)
 
 ### 1-interval/5-symetric
 ~~~
@@ -956,6 +961,11 @@ Escriba un mes (1-12):  1
 Escriba un año (1-...):  2022
 El día 29 del 1 de 2022 cae a mediados de invierno.
 ~~~
+
+- 2 ejercicios mios: baja complejidad vs lógica compacta
+  - [.e0: ejercicio con solo programación estructurada sin arrays (ME)](../5-units/3-date/1-seasonWithPart/v0.e0/app.js)
+  - [.e1: ejercicio con solo programación estructurada sin arrays (ME)](../5-units/3-date/1-seasonWithPart/v0.e1/app.js)
+- [.e2: ejercicio con solo programación estructurada, sin arrays (ME).](../5-units/3-date/1-seasonWithPart/v0.e2/app.js) Pero implementado de tal manera que se pudiera adaptar facilmente si se quisiera usar arrys (búsqueda de índices)
 
 ## 4-time
 
