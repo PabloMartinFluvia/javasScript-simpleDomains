@@ -15,7 +15,18 @@ for (let i = 0; i < sentence.length; i++) {
     } else if (char < 'a' || 'z' < char) { // char no es lletra [a-z]
         char = ' ';
     }
-    
+
+    let j = 0;
+    while(char !== LETTERS[j]  && j < LETTERS.length){
+        j++;
+    }
+    if (char === LETTERS[j]){
+        message += MORSE[j];
+    } else {
+        console.writeln(`Lógica para asegurar que ${char} sea un carácter está mal implementada`);
+    }
+
+    /*
     // Porquè un for? Para que hay que repetir la sentencia secuencial 27 veces?
     // Si lo que se quiere es encontrar el indice del caracter, para así poder indexar el array de morse...
     for (let j = 0; j < MORSE.length; j++) { 
@@ -23,6 +34,7 @@ for (let i = 0; i < sentence.length; i++) {
             message += MORSE[j];
         }
     }
+    */
 }
 console.writeln(`La frase "${sentence}"
 se traduce a "${message}"`);

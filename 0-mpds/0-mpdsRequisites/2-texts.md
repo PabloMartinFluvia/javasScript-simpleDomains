@@ -70,6 +70,9 @@ La frase:"que"
 se traduce a:"--.- ..- . "
 ~~~
 
+- [.0: con arrays (L)](../2-texts/2-morseTranlator/v0.0/app.js)
+  - [.e0: con arrays. Corrigiendo solución anterior (me)](../2-texts/2-morseTranlator/v0.0/app.js)
+
 ### 3-initials/v.0
 ~~~
 Introduce 3 palabras separadas por varios espacios:  Universo   Santa   Tecla  

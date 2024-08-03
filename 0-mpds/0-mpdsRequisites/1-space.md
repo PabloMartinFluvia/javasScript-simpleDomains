@@ -55,6 +55,7 @@ Los lados 6, 5 y 1 NO forman un triangulo
 - 2 soluciones para comparar: repetición de código y aprovechar inicializaciones
   - [.1: con sentencia secuencial (L)](../1-space/2-triangle/v0.1/app.js)
   - [.2: con sentencia secuencial (L)](../1-space/2-triangle/v0.2/app.js)
+- [.3: con arrays (L)](../1-space/2-triangle/v0.3/app.js)
 ## 3-circle 
 
 ### 3-circle/v0

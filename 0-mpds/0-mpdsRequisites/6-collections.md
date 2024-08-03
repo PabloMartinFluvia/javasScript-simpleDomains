@@ -95,6 +95,9 @@ Array original: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,2
 Array transpuesta: 1,6,11,16,21,2,7,12,17,22,3,8,13,18,23,4,9,14,19,24,5,10,15,20,25
 ~~~
 
+- [.0: con arrays (L), solución tiene errores](../6-collections/3-matrixTranspose/v0.0/app.js)
+  - [.e0: con arrays (me), mi corrección](../6-collections/3-matrixTranspose/v0.e0/app.js)
+
 ## 4-permutations
 
 ### 4-permutations/v0
@@ -241,6 +244,8 @@ Permutación-117: c d b d a
 Permutación-118: b d c d a
 Permutación-119: d b c d a
 ~~~
+
+- [.0: con arrays (L)](../6-collections/4-permutations/v0.0/app.js)
 
 ## 5-includes
 

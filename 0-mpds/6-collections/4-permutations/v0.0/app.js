@@ -1,4 +1,9 @@
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
+
+/*
+Luís comentó que este solución es muy compleja.
+La dejó pendiente de explicar.
+*/
 
 const console = new Console();
 let data = [];

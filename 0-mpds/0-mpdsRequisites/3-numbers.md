@@ -120,8 +120,9 @@ Dame la cantidad de céntimos:  123
 1 moneda(s) de 2 
 1 moneda(s) de 1 
 ~~~
-- [.0: con operador ternario](../3-numbers/5-changeCoins/v1.0/app.js)
-- [.1: con operadores de acumulación](../3-numbers/5-changeCoins/v1.1/app.js)
+- [.0: con operador ternario (L)](../3-numbers/5-changeCoins/v1.0/app.js)
+- [.1: con operadores de acumulación (L)](../3-numbers/5-changeCoins/v1.1/app.js)
+- [.2: con arrays (L)](../3-numbers/5-changeCoins/v1.2/app.js)
 ## 6-prime
 
 ### 6-prime/v0
