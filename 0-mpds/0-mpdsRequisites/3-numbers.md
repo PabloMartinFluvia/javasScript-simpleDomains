@@ -300,6 +300,14 @@ La base 2 elevada al exponente 4 es 16
 
 - [.0: con sentencia secuencial (L)](../3-numbers/11-power/v0.0/app.js)
 
+## 12-binarySearch
+
+### 12-bynarySearch/v0
+
+Escribe un código para "adivinar" el número del usuario entre 0 y 1.000.000 inclusive mediante la búsqueda binaria: ¿es igual o mayor que 500.000? Mayor; ¿es igual o mayor que 750.000? ...
+
+- [.e0: con arrays (ME)](../3-numbers/12-binarySearch/v0.e0/app.js)
+
 ## 4-trianguloPascal/v0
 
 ![](./images/trianguloPascal.png)

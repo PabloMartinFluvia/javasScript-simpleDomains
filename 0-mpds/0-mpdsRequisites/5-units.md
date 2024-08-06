@@ -966,6 +966,7 @@ El día 29 del 1 de 2022 cae a mediados de invierno.
   - [.e0: ejercicio con solo programación estructurada sin arrays (ME)](../5-units/3-date/1-seasonWithPart/v0.e0/app.js)
   - [.e1: ejercicio con solo programación estructurada sin arrays (ME)](../5-units/3-date/1-seasonWithPart/v0.e1/app.js)
 - [.e2: ejercicio con solo programación estructurada, sin arrays (ME).](../5-units/3-date/1-seasonWithPart/v0.e2/app.js) Pero implementado de tal manera que se pudiera adaptar facilmente si se quisiera usar arrys (búsqueda de índices)
+- [.e3: ejercicio con arrays (ME).](../5-units/3-date/1-seasonWithPart/v0.e3/app.js)
 
 ## 4-time
 

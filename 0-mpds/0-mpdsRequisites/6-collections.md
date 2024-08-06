@@ -87,6 +87,13 @@ Valores ordenados :
 9
 ~~~
 
+### 2-order/v1
+
+Escribe un código que determine si una serie de números positivos (terminada en 0) está ordenada ascendentemente.
+
+- [.e0: con arrays (ME)](../6-collections/2-order/v1.e0/app.js)
+- [.e1: con arrays (ME)](../6-collections/2-order/v1.e0/app.js). Mejora después de corrección
+
 ## 3-matrixTranspose
 
 ### 3-matrixTranspose/v0
@@ -313,3 +320,12 @@ En la serie no se encuentra el valor 13
 - Modela con un lenguaje de datos tu árbol genealógico familiar:
 
 ![](./images/familyTree.v1.jpg)
+
+## 8-reticule
+
+### 8-reticule/v0
+
+Escribe un código que a partir de un número de filas y columnas muestre por pantalla una retícula correspondiente de cuadrados de 5x5 asteriscos rellenos de puntos.
+
+- [.e0: con arrays (ME).](../6-collections/8-reticule/v0.e0/app.js) Una manera de interpretar el enunciado.
+- [.e1: con arrays (ME).](../6-collections/8-reticule/v0.e0/app.js) Otra manera de interpretar el enunciado.
