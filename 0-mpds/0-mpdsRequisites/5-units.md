@@ -485,6 +485,7 @@ La coordenada (2, -2) está en el 4º cuadrante.
   - [.1: con sentencia secuencial (L)](../5-units/2-coordinate/1-quadrants/v0.1/app.js)
   - [.2: con sentencia secuencial (L)](../5-units/2-coordinate/1-quadrants/v0.2/app.js)
   - [.e0: ejercicio con sentencia secuencial (L)](../5-units/2-coordinate/1-quadrants/v0.e0/app.js)
+- [.3: con funciones (L)](../5-units/2-coordinate/1-quadrants/v0.3/app.js)
 
 ### 2-coordinate/2-isHorizontal
 ~~~

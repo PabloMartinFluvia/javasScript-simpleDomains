@@ -1,4 +1,4 @@
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
 
 const console = new Console();
 let number = console.readNumber(`Dame un número entero: `);
@@ -8,7 +8,7 @@ for (let i = 0; i < DIGITS.length; i++) {
 }
 
 function getRightDigit(number, position) {
-  return position === 0?
+  return position === 0 ?
     number % 10
   :
     getRightDigit((number - number % 10) / 10, position - 1);

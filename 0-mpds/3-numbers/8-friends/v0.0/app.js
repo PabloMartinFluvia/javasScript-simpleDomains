@@ -2,7 +2,6 @@ const { Console } = require("console-mpds");
 
 const console = new Console();
 const number1 = console.readNumber("Dame un número: ");
-//numeros amigos: la suma de sus divisores es igual
 let sum1 = 0;
 for (let divisor = 1; divisor < number1; divisor++) {
   if (number1 % divisor == 0) {

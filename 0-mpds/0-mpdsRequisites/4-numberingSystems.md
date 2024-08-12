@@ -12,6 +12,12 @@ Centenas: 0
 - [.0: Con sentencia* de asignación (y declaración de constantes)(L)](../4-numberingSystems/0-digits/v0.0/app.js)
 - [.1: Con operadores de acumulación (L)](../4-numberingSystems/0-digits/v0.1/app.js)
 - [.2: con arrays (L)](../4-numberingSystems/0-digits/v0.2/app.js)
+- 1 solucion con funciones y otras 2 con funciones recursivas para comparar
+  - [.3: con funciones (L)](../4-numberingSystems/0-digits/v0.3/app.js)
+  - [.4: con funciones recursivas (L)](../4-numberingSystems/0-digits/v0.4/app.js)
+  - [.5: con funciones recursivas (L)](../4-numberingSystems/0-digits/v0.5/app.js)
+
+
 ### 0-digits/v1
 ~~~
 Dame un número entero 76
@@ -81,6 +87,8 @@ El número 0 no es palidromo
 ]
 ~~~
 
+- [.0 : con funciones (L)](../4-numberingSystems/2-abacus/v0.0/app.js). No revisado aún, no entiendo los requisitos.
+
 ## 3-binaryToDecimal
 
 ### 3-binaryToDecimal/v0
@@ -98,6 +106,7 @@ El número 1101 binario corresponde con el número 13 decimal
 ~~~
 
 - [.0: con sentencia secuencial (L)](../4-numberingSystems/3-binaryToDecimal/v1.0/app.js)
+- [.1: con funciones (L)](../4-numberingSystems/3-binaryToDecimal/v1.1/app.js)
 
 ## 4-decimalToBinary
 
@@ -146,6 +155,12 @@ Formato binario de 13 >>> 5 (0):  0000 0000 0000 0000 0000 0000 0000 0000
 236 en romano: CCXXXVI
 841 en romano: DCCCXLI
 ~~~
+
+- 2 soluciones para comparar. No revisats, utilitza funcions globals.
+  - [.0: con funciones (L)](../4-numberingSystems/5-romanNumerals/v0.0/app.js)
+  - [.1: con funciones (L)](../4-numberingSystems/5-romanNumerals/v0.1/app.js)
+
+
 ### v2
 ~~~
 El número 841 es DCCCXLI

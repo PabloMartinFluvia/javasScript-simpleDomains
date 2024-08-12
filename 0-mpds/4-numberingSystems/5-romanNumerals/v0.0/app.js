@@ -1,7 +1,6 @@
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
 
 const console = new Console();
-console.writeln(getRightDigit(123,1));
 console.writeln('101 en romano: ' + decimalToRoman(101));
 console.writeln('45 en romano: ' + decimalToRoman(45));
 console.writeln('236 en romano: ' + decimalToRoman(236));

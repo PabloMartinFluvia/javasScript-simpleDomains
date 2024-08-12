@@ -102,8 +102,9 @@ Array original: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,2
 Array transpuesta: 1,6,11,16,21,2,7,12,17,22,3,8,13,18,23,4,9,14,19,24,5,10,15,20,25
 ~~~
 
-- [.0: con arrays (L), solución tiene errores](../6-collections/3-matrixTranspose/v0.0/app.js)
-  - [.e0: con arrays (me), mi corrección](../6-collections/3-matrixTranspose/v0.e0/app.js)
+- [.0: con arrays (L)](../6-collections/3-matrixTranspose/v0.0/app.js). La solución tiene errores.
+  - [.e0: con arrays (ME)](../6-collections/3-matrixTranspose/v0.e0/app.js). Mi corrección
+- [.1: con funciones (L + ME)](../6-collections/3-matrixTranspose/v0.1/app.js). Solución + corrección
 
 ## 4-permutations
 
@@ -252,7 +253,8 @@ Permutación-118: b d c d a
 Permutación-119: d b c d a
 ~~~
 
-- [.0: con arrays (L)](../6-collections/4-permutations/v0.0/app.js)
+- [.0: con arrays (L)](../6-collections/4-permutations/v0.0/app.js). No revisat, Luís va dir que el volía explicar ell.
+- [.1: con funciones (L)](../6-collections/4-permutations/v0.1/app.js). No revisat, Luís va dir que el volía explicar ell, y a més usa funcions globals.
 
 ## 5-includes
 
@@ -279,6 +281,7 @@ En la serie no se encuentra el valor 13
 - 2 soluciones para comparar:
   - [.1: con arrays (L)](../6-collections/5-includes/v0.1/app.js)
   - [.2: con arrays (L)](../6-collections/5-includes/v0.2/app.js)
+- [.3: con funciones (L)](../6-collections/5-includes/v0.3/app.js)
 
 ## 4-permutations
 

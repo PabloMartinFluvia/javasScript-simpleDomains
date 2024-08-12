@@ -1,4 +1,4 @@
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
 
 const console = new Console();
 console.writeln('101 en romano: ' + decimalToRoman(101));

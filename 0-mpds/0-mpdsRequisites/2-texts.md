@@ -70,8 +70,13 @@ La frase:"que"
 se traduce a:"--.- ..- . "
 ~~~
 
-- [.0: con arrays (L)](../2-texts/2-morseTranlator/v0.0/app.js)
-  - [.e0: con arrays. Corrigiendo solución anterior (me)](../2-texts/2-morseTranlator/v0.0/app.js)
+- [.0: con arrays (L)](../2-texts/2-morseTranlator/v0.0/app.js). Hay error con las mayúsculas
+  - [.e0: con arrays. Corrigiendo solución anterior (me)](../2-texts/2-morseTranlator/v0.e0/app.js). Por la discusión de for vs while
+- [.1: con funciones (L + ME)](../2-texts/2-morseTranlator/v0.1/app.js). Corrección mia tema for y el tema de las mayúsculas.
+- [.e1: con funciones (ME)](../2-texts/2-morseTranlator/v0.1/app.js). Corrección de errores:
+  - el índice del primer for iba de 0 : LETTERS.length - 1, entones no permitía sentencias mayores que el tamaño del abecedario.
+  - la lógica para convertir mayusculas a minúsculas no funcionaba
+  - el último for recorría todo el array de LETTERS/MORSE sin necesidad (cuando se encuentra el caráctoer no hace falta mirar más).
 
 ### 3-initials/v.0
 ~~~

@@ -32,9 +32,12 @@ No eres mayor de edad
 Qué años tienes?  18
 Sí eres mayor de edad
 ~~~
+
 - 2 soluciones para comparar: evitar números mágicos y mejorar legibilidad:
   - [.0: Con operador ternario (L)](../0-time/1-major/v0.0/app.js)
   - [.1: Con operador ternario (L)](../0-time/1-major/v0.1/app.js)
+- [.2: Con funciones (L)](../0-time/1-major/v0.2/app.js)
+
 ## 2-sibilings
 
 ### 2-sibilings/v0
@@ -53,9 +56,12 @@ Dame tu edad:  33
 El año pasado tenías 32 años
 y el año que viene tendrás 34 años
 ~~~
+
 - [.0: Con operador ternario (L)](../0-time/2-sibilings/v0.0/app.js)
 - [.1: Con reglas de precedencia y asociatividad (L)](../0-time/2-sibilings/v0.1/app.js)
 - [.2: Con sentencias alternativas (L)](../0-time/2-sibilings/v0.2/app.js)
+- [.3: Con funciones (L)](../0-time/2-sibilings/v0.3/app.js)
+
 ### 3-sumTimes/v0.0
 
 ~~~
@@ -65,4 +71,5 @@ Dime cuantas horas necesitas [0-23]:  8
 Dime los minutos necesitas [0-59]:  10
 Serán las 23:15
 ~~~
+
 - [.0: con sentencia secuencial (L)](../0-time/3-sumTimes/v0.0/app.js)

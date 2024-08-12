@@ -11,7 +11,8 @@ let message = "";
 for (let i = 0; i < sentence.length; i++) {
     let char = sentence[i];
     if ('A' <= char && char <= 'Z'){ // char es lletra en majuscules
-        char = toLowerCase(sentence[i]);
+        //char = toLowerCase(sentence[i]); // (L) ReferenceError: toLowerCase is not defined
+        char = sentence[i].toLowerCase(); // ME
     } else if (char < 'a' || 'z' < char) { // char no es lletra [a-z]
         char = ' ';
     }

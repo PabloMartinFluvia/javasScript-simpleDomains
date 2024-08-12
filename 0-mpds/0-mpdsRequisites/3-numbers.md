@@ -22,6 +22,7 @@ Dame un número:  76
   - [.1: con sentencia secuencial (L)](../3-numbers/0-multiplicationTable/v0.1/app.js)
   - [.2: con sentencia secuencial (L)](../3-numbers/0-multiplicationTable/v0.2/app.js)
   - [.3: con sentencia secuencial (L)](../3-numbers/0-multiplicationTable/v0.3/app.js)
+- [.5: con funciones (L)](../3-numbers/0-multiplicationTable/v0.5/app.js)
 ## 1-integerDivision
 
 ### 1-integerDivision/v0
@@ -93,11 +94,16 @@ El valor absoluto del número 76 es 76
 Escribe un número?  -67
 El valor absoluto del número -67 es 67
 ~~~
+
 - [.0: con operador tarnario(L)](../3-numbers/4-absoluteValue/v0.0/app.js)
 - 2 soluciones para comparar legibilidad vs necesidad de declarar var/consts:
   - [.1: con reglas de precedencia y asociatividad (L)](../3-numbers/4-absoluteValue/v0.1/app.js)
   - [.2: con reglas de precedencia y asociatividad (L)](../3-numbers/4-absoluteValue/v0.2/app.js)
 - [.3: sentencia alternativa (L)](../3-numbers/4-absoluteValue/v0.3/app.js)
+- 2 soluciones para comparar distintas maneras de hacer la función:
+- [.4: con funciones (L)](../3-numbers/4-absoluteValue/v0.4/app.js)
+- [.5: con funciones (L)](../3-numbers/4-absoluteValue/v0.5/app.js)
+
 ## 5-changeCoins
 
 ### 5-changeCoins/v0
@@ -132,6 +138,10 @@ El número 12 no es primo
 ~~~
 
 - [.0: con sentencia secuencial (L)](../3-numbers/6-prime/v0.0/app.js)
+- 3 Soluciones para comparar distintas maneras de implementar la función, jugando con los returns:
+  - [.1: con funciones (L)](../3-numbers/6-prime/v0.1/app.js)
+  - [.2: con funciones (L)](../3-numbers/6-prime/v0.2/app.js)
+  - [.3: con funciones (L)](../3-numbers/6-prime/v0.3/app.js)
 
 ### 6-prime/v1
 ~~~
@@ -140,6 +150,7 @@ La suma de los primos en los primeros 12 números es 28
 ~~~
 
 - [.0: con sentencia secuencial (L)](../3-numbers/6-prime/v1.0/app.js)
+- [.1: con funciones (L)](../3-numbers/6-prime/v1.1/app.js)
 
 ### 6-prime/v2
 ~~~
@@ -148,6 +159,9 @@ La suma de los primeros 12 primos es 197
 ~~~
 
 - [.0: con sentencia secuencial (L)](../3-numbers/6-prime/v2.0/app.js)
+- 2 soluciones para comparar distintas maneras de implementar la función
+  - [.1: con funciones (L)](../3-numbers/6-prime/v2.1/app.js)
+  - [.2: con funciones (L)](../3-numbers/6-prime/v2.2/app.js)
 
 ### 6-prime/v3
 ~~~
@@ -178,6 +192,9 @@ CCCCCC
     * número primo: tantas 'P' como el número
     * número compuesto: tantas filas como su primer divisor de tantas 'C' como el número dividivo por el divisor
 
+- [.0: con funciones (L)](../3-numbers/6-prime/v3.0/app.js). Hay código duplicado (distintos algoritmos que hacen lo mismo: buscar el primer divisor: L20 y L37)
+- [.e0: con funciones (ME)](../3-numbers/6-prime/v3.e0/app.js). Para evitar duplicación.
+
 ## 7-perfect
 
 ### 7-perfect/v0
@@ -192,6 +209,7 @@ El número 12 no es perfecto
 ~~~
 
 - [.0: con sentencia secuencial (L)](../3-numbers/7-perfect/v0.0/app.js)
+- [.1: con funciones (L)](../3-numbers/7-perfect/v0.1/app.js)
 
 ### 7-perfect/v1
 ~~~
@@ -211,8 +229,11 @@ Dame una posición:  4
 El número 8128 es el 4º número perfecto
 ~~~
 
+- [.0: con programación estructurada (L)](../3-numbers/7-perfect/v1.0/app.js)
+- [.1: con funciones (L)](../3-numbers/7-perfect/v1.1/app.js)
 
 ## 8-friends
+* numeros amigos: la suma de sus divisores es igual al otro numero, y viceversa
 
 ### 8-friends/v0
 ~~~
@@ -227,6 +248,7 @@ Los números 221 y 283 si son amigos
 ~~~
 
 - [.0: con sentencia secuencial (L)](../3-numbers/8-friends/v0.0/app.js)
+- [.1: con funciones (L)](../3-numbers/8-friends/v0.1/app.js)
 
 ### 8-friends/v1
 ~~~
@@ -243,6 +265,8 @@ Los números 6232 y 6368 son amigos
 Los números 6368 y 6232 son amigos
 ~~~
 
+- [.0: con sentencia secuencial (L)](../3-numbers/8-friends/v1.0/app.js)
+- [.1: con funciones (L)](../3-numbers/8-friends/v1.1/app.js)
 
 ## 9-factorial
 
@@ -265,6 +289,9 @@ El factorial de 5 es 120
 ~~~
 
 - [.0: con sentencia iterativa (L)](../3-numbers/9-factorial/v0.0/app.js)
+- 2 soluciones para comparar
+  - [.1: con funciones (L)](../3-numbers/9-factorial/v0.1/app.js)
+  - [.2: con funcion recursiva (L)](../3-numbers/9-factorial/v0.2/app.js)
 
 ## 10-fibonacci
 
@@ -283,6 +310,7 @@ El término de la serie de Fibonacci de 5 es 5
 ~~~
 
 - [.0: con sentencia secuencial (L)](../3-numbers/10-fibonacci/v0.0/app.js)
+- [.1: con funciones (L)](../3-numbers/10-fibonacci/v0.1/app.js)
 
 ## 11-power
 
@@ -299,6 +327,7 @@ La base 2 elevada al exponente 4 es 16
 ~~~
 
 - [.0: con sentencia secuencial (L)](../3-numbers/11-power/v0.0/app.js)
+- [.1: con funciones (L)](../3-numbers/11-power/v0.1/app.js)
 
 ## 12-binarySearch
 

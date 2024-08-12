@@ -1,4 +1,4 @@
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
 
 const console = new Console();
 let key = console.readNumber(`Dame un valor para buscar en la serie: `);
@@ -13,7 +13,8 @@ function readData() {
     data[i] = console.readString(`Dame un valor o un punto "." para finalizar la serie`);
     i++;
   } while (data[i - 1] !== ".");
-  delete data[i];
+  //i--; // per a que funcioni
+  delete data[i]; // error ? no hauria d'eliminar el i-1 (on està el '.')? En el index i no hi ha res assignat...
   return data;
 }
 

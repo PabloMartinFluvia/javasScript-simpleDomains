@@ -1,10 +1,10 @@
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
 
 const console = new Console();
 let amount = console.readNumber(`Dame un número positivo: `);
 console.writeln(`La suma de los primeros ${amount} primos es ${sumFirstPrimes(amount)}`);
 
-function sumFirsPrimes(amount) {
+function sumFirstPrimes(amount) {
   let sum = 0;
   let number = 1;
   for (let i = 0; i < amount; i++) {
