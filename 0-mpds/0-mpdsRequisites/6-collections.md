@@ -328,7 +328,47 @@ En la serie no se encuentra el valor 13
 
 ### 8-reticule/v0
 
-Escribe un código que a partir de un número de filas y columnas muestre por pantalla una retícula correspondiente de cuadrados de 5x5 asteriscos rellenos de puntos.
+- Escribe un código que a partir de un número de filas y columnas muestre por pantalla una retícula correspondiente de cuadrados de 5x5 asteriscos rellenos de puntos.
 
 - [.e0: con arrays (ME).](../6-collections/8-reticule/v0.e0/app.js) Una manera de interpretar el enunciado.
 - [.e1: con arrays (ME).](../6-collections/8-reticule/v0.e0/app.js) Otra manera de interpretar el enunciado.
+
+## 9-reduce
+
+### 9-reduce/v0
+
+- Escribe un código que, a partir de un array con valores numéricos, muestre por pantalla las sumas de:
+  1. los dobles de todos sus valores
+  2. los triples de todos sus valores
+
+- [.0: con funciones nominales (L).](../6-collections/9-reduce/v0.0/app.js)
+- [.1: con funciones de orden superior y nominales (L).](../6-collections/9-reduce/v0.1/app.js)
+- [.2: con funciones de orden superior y anónimas (L).](../6-collections/9-reduce/v0.2/app.js)
+- [.3: con funciones de orden superior y flechas (L).](../6-collections/9-reduce/v0.3/app.js)
+
+## 10-find
+
+### 10-find/v0
+
+- Escribe un código que, a partir de un array con valores numéricos, muestre por pantalla el primer valor que cumpla la condición (undefined si no se encuentra):
+  1. el primer número que sea par
+  2. el primer número que sea impar
+
+- [.0: con funciones nominales (L).](../6-collections/10-find/v0.0/app.js)
+- [.1: con funciones de orden superior y nominales (L).](../6-collections/10-find/v0.1/app.js)
+- [.2: con funciones de orden superior y anónimas (L).](../6-collections/10-find/v0.2/app.js)
+- [.3: con funciones de orden superior y flechas (L).](../6-collections/10-find/v0.3/app.js)
+
+## 11-filter
+
+### 11-filter/v0
+
+- Escribe un código que, a partir de un array con valores numéricos, muestre por pantalla un array con solo los valores que cumplan la condición:
+  1. solo los números pares
+  2. solo los números impares
+
+- [.0: con funciones nominales (L).](../6-collections/11-filter/v0.0/app.js)
+- [.1: con funciones de orden superior y nominales (L).](../6-collections/11-filter/v0.1/app.js)
+- [.2: con funciones de orden superior y anónimas (L).](../6-collections/11-filter/v0.2/app.js)
+- [.3: con funciones de orden superior y flechas (L).](../6-collections/11-filter/v0.3/app.js)
+

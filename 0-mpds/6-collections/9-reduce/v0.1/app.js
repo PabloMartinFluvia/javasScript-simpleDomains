@@ -1,0 +1,24 @@
+const { Console } = require("console-mpds");
+
+const console = new Console();
+const values = [3, 6, 8, 2, 7, 9, 5, 2, 4, 6];
+
+function sum(values, operation) {
+  let acu = 0;
+  for (let value of values) {
+    acu += operation(value);
+  }
+  return acu;
+}
+
+function double(value) {
+  return value * 2;
+}
+
+function triple(value) {
+  return value * 3;
+}
+
+// permet evitar duplicar el codi i fer que la funció 'sum' canvï dinamicament
+console.writeln(sum(values, double));
+console.writeln(sum(values, triple));
