@@ -1,0 +1,9 @@
+const { Console } = require("console-mpds");
+
+const console = new Console();
+console.writeln(`http://www.usantecla.com/game-ticTacToe/game/3/board`);
+console.writeln(`http://www.usantecla.com/game-ticTacToe/game/0/board`);
+console.writeln(`ftp://www.upm.com/manager-task/data.log`);
+console.writeln(`ftp://www.urjc.com/manager-task/data.log`);
+console.writeln();
+

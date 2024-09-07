@@ -98,13 +98,6 @@ Tu mensaje "Vale." tiene 4 caracteres significativos, sin contar el punto final!
 - Solución .0 en programación estructurada se ha eliminado de la documentación porque no le gustaba(L)
   - [.e0: con sentencias iterativas (ME corretgint L)](../2-texts/5-vowels/v0.e0/app.js)
 
-### 7-palindrome/v.0
-
-- Escribe un código que determine si una cadenas de caracteres es un palíndromo, sin considerar espacios intermedios ni acentos de la cadena. P.e.: "Dábale arroz a la zorra el abad" sí es un palímdromo.
-
-- [.e0: con arrays (ME)](../2-texts/7-palindrome/v0.e0/app.js)
-- [.e1: con arrays (ME)](../2-texts/7-palindrome/v0.e1/app.js): ejercicio mejorado
-
 ## 3-curriculum
 
 ### 3-curriculum/v0
