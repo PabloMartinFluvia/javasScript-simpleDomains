@@ -1,5 +1,7 @@
 const { Console } = require("console-mpds");
 
+// function to init objects. Atributes privates with factory pattern
+
 const consoleMPDS = new Console();
 const intervals = randomIntervals(10);
 const tests = [
@@ -79,11 +81,29 @@ function randomIntervals(amount) {
 function createInterval(min, max) {
     const that = {
         max: max,
-        min: min        
+        min: min
         // métodos privados ...
     }
 
     return {
+        read: function () {
+            let error;
+            do {
+                that.min = consoleMPDS.readNumber(`Introduzca el mínimo: `);
+                that.max = consoleMPDS.readNumber(`Introduzca el máximo: `);
+                error = that.min > that.max;
+                if (error) {
+                    consoleMPDS.writeln(`El mínimo debe ser menor o igual al máximo`);
+                }
+            } while (error);
+        },
+        writeln: function () {
+            this.write();
+            consoleMPDS.writeln();
+        },
+        write: function () {
+            consoleMPDS.write(this.toString());
+        },
         toString: function () {
             return `[${that.min}, ${that.max}]`;
         },

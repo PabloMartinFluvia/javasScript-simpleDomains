@@ -1,5 +1,7 @@
 const { Console } = require("console-mpds");
 
+// function to init objects. All memebers publics. Using this.
+
 const consoleMPDS = new Console();
 const intervals = randomIntervals(10);
 const tests = [
@@ -78,49 +80,67 @@ function randomIntervals(amount) {
 
 function createInterval(min, max) {
   return {
+    min: min,
+    max: max,
+    read: function () {
+      let error;
+      do {
+        this.min = consoleMPDS.readNumber(`Introduzca el mínimo: `);
+        this.max = consoleMPDS.readNumber(`Introduzca el máximo: `);
+        error = min > max;
+        if (error) {
+          consoleMPDS.writeln(`El mínimo debe ser menor o igual al máximo`);
+        }
+      } while (error);
+    },
+    writeln: function () {
+      this.write();
+      consoleMPDS.writeln();
+    },
+    write: function () {
+      consoleMPDS.write(this.toString());
+    },
     toString: function () {
-      return `[${min}, ${max}]`;
+      return `[${this.min}, ${this.max}]`;
     },
     length: function () {
-      return max - min;
+      return this.max - this.min;
     },
     middlePoint: function () {
-      return min + this.length() / 2;
+      return this.min + this.length() / 2;
     },
     shifted: function (shiftment) {
-      return createInterval(min + shiftment, max + shiftment);
+      return createInterval(this.min + shiftment, this.max + shiftment);
     },
     symmetrical: function () {
-      return createInterval(-max, -min);
+      return createInterval(-this.max, -this.min);
     },
     adjust: function (interval) {
-      return createInterval(adjustValue(min), adjustValue(max));
+      return createInterval(adjustValue(this.min), adjustValue(this.max));
 
-      // podría ponerse como función privada local, 
-      // pero al ser usada solo por este método se puede dejar local a este
       function adjustValue(value) {
-        if (value < interval.getMin()) {
-          return interval.getMin();
-        } else if (value > interval.getMax()) {
-          return interval.getMax();
+        if (value < interval.min) {
+          return interval.min;
+        } else if (value > interval.max) {
+          return interval.max;
         }
         return value;
       }
     },
     scale: function (value) {
-      let scaledMiddle = min + this.length() / 2;
+      let scaledMiddle = this.min + this.length() / 2;
       let scaledHalfLength = this.length() * value / 2;
       return createInterval(scaledMiddle - scaledHalfLength, scaledMiddle + scaledHalfLength);
     },
     includes: function (value) {
       if (typeof value === `number`) {
-        return min <= value && value <= max;
+        return this.min <= value && value <= this.max;
       }
-      return this.includes(value.getMin()) && this.includes(value.getMax());
+      return this.includes(value.min) && this.includes(value.max);
     },
     intersected: function (interval) {
-      return this.includes(interval.getMin())
-        || this.includes(interval.getMax())
+      return this.includes(interval.min)
+        || this.includes(interval.max)
         || interval.includes(this);
     },
     intersection: function (interval) {
@@ -130,11 +150,11 @@ function createInterval(min, max) {
       if (interval.includes(this)) {
         return this;
       }
-      if (this.includes(interval.getMin())) {
-        return createInterval(interval.getMin(), max);
+      if (this.includes(interval.min)) {
+        return createInterval(interval.min, this.max);
       }
-      if (this.includes(interval.getMax())) {
-        return createInterval(min, interval.getMax());
+      if (this.includes(interval.max)) {
+        return createInterval(this.min, interval.max);
       }
       return null;
     },
@@ -143,21 +163,21 @@ function createInterval(min, max) {
         return null;
       }
       return createInterval(
-        min < interval.getMin() ? min : interval.getMin(),
-        max > interval.getMax() ? max : interval.getMax()
+        this.min < interval.min ? this.min : interval.min,
+        this.max > interval.max ? this.max : interval.max
       );
     },
     values: function (amount) {
       if (amount === 1) {
-        const middlePoint = (max - min) / 2;
+        const middlePoint = (this.max - this.min) / 2;
         return [middlePoint];
       }
       let distance = this.length() / (amount - 1);
-      let array = [min];
+      let array = [this.min];
       for (let i = 1; i < amount - 1; i++) {
         array[i] = array[i - 1] + distance;
       }
-      array[array.length] = max;
+      array[array.length] = this.max;
       return array;
     },
     split: function (amount) {
@@ -169,12 +189,10 @@ function createInterval(min, max) {
       return array;
     },
     equals: function (interval) {
-      return min === interval.getMin() && max === interval.getMax();
+      return this.min === interval.min && this.max === interval.max;
     },
     clone: function () {
-      return createInterval(min, max);
-    }, 
-    getMin: () => min,
-    getMax: () => max
+      return createInterval(this.min, this.max);
+    }
   };
 }

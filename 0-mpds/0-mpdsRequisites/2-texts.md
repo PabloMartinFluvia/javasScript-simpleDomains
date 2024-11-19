@@ -77,6 +77,7 @@ se traduce a:"--.- ..- . "
   - el índice del primer for iba de 0 : LETTERS.length - 1, entones no permitía sentencias mayores que el tamaño del abecedario.
   - la lógica para convertir mayusculas a minúsculas no funcionaba
   - el último for recorría todo el array de LETTERS/MORSE sin necesidad (cuando se encuentra el caráctoer no hace falta mirar más).
+- [.2: con función constructora (L)](../2-texts/2-morseTranlator/v0.2/app.js). Obs: no he mirado si hay que aplicarle la misma corrección que en los ejemplos anteriores
 
 ### 3-initials/v.0
 ~~~

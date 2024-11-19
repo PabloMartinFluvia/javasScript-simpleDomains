@@ -1,6 +1,8 @@
-const { Console } = require("./console");
+const { Console } = require("console-mpds");
 
 const console = new Console();
+
+// sin ganancia, ya que cada vez que se cree el objeto (lo hace 'new') se dará de alta sus objetos función (sus mètodos)
 
 function MorseGenerator(sentence) {
     this.sentence = sentence;

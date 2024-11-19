@@ -115,6 +115,10 @@ Suma sin (2/4): (7/6)
 Producto sin (2/4): (1/3)
 ~~~
 
+- [.0: resultado con imperativa + hay funciones libres + objetos sin comportamiento (L)](../5-units/0-fraction/v0.0/app.js)
+
+- [.0: resultado con imperativa + fracción como objeto inicializado con función constructora (L)](../5-units/0-fraction/v0.1//app.js)
+
 ## 1-interval
 
 ### 1-interval/0-length
@@ -132,7 +136,7 @@ Introduce el máximo del intervalo (superior o igual al mínimo): 4
 La longitud del intervalo [4, 4] es 0
 ~~~
 
-- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/v0.e0/app.js)
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/simple_algorithm/v0.e0/app.js)
 
 ### 1-interval/1-includes
 ~~~
@@ -175,7 +179,7 @@ Introduce un punto: 4
 El intervalo [4, 4] si incluye el punto 4
 ~~~
 
-- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/v1.e0/app.js)
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/simple_algorithm/v1.e0/app.js)
 
 ### 1-interval/2-scale
 
@@ -204,7 +208,7 @@ Introduce un factor de escala positivo: 0
 El intervalo [4, 10] con factor de escala 0 es el intervalo [7, 7]
 ~~~
 
-- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/v2.e0/app.js)
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/simple_algorithm/v2.e0/app.js)
   - Nota: Console, al leer numeros, hace parseInt por defecto
 
 ### 1-interval/3-shifted
@@ -224,7 +228,7 @@ Introduce un factor de desplazamiento: -4
 El intervalo [4, 10] con factor de desplazamiento -4 es el intervalo [0, 6]
 ~~~
 
-- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/v3.e0/app.js)
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/simple_algorithm/v3.e0/app.js)
 
 ### 1-interval/4-split
 ~~~
@@ -244,7 +248,7 @@ Introduce una cantidad positiva de intervalos: 2
 El intervalo [4, 10] dividido en 2 intervalos son [4, 7] y [7, 10]
 ~~~
 
-- [.e0: ejercicio con solo programación estructurada sin arrays (ME)](../5-units/1-interval/v4.e0/app.js)
+- [.e0: ejercicio con solo programación estructurada sin arrays (ME)](../5-units/1-interval/simple_algorithm/v4.e0/app.js)
 
 ### 1-interval/5-symetric
 ~~~
@@ -268,7 +272,7 @@ Introduce el máximo del intervalo (superior o igual al mínimo): -4
 El intervalo [-10, -4] simétrico al origen es [4, 10]
 ~~~
 
-- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/v5.e0/app.js)
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/simple_algorithm/v5.e0/app.js)
 
 ### 1-interval/6-isIntersected
 ~~~
@@ -287,7 +291,7 @@ Dame el máximo: 9
 No existe intersección entre los intervalos [2.0, 5.0] y [6.0, 9.0]
 ~~~
 
-- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/v6.e0/app.js)
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/simple_algorithm/v6.e0/app.js)
 
 ### 1-interval/7-intersection
 ~~~
@@ -345,7 +349,7 @@ Introduce el máximo del intervalo (superior o igual al mínimo): 100
 El intervalo [4, 10] intersección con el intervalo [0, 100] será el intervalo [4, 10]
 ~~~
 
-- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/v7.e0/app.js)
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/simple_algorithm/v7.e0/app.js)
   - Precondición assumida: se asume que SI existe intersección entre los 2 intervalos proporcionados por el usuario, dado que los requisitos no especifican cuál es la salida deseada en caso de que no hubiese intersección. 
 
 ### 1-interval/8-union
@@ -404,7 +408,7 @@ Introduce el máximo del intervalo (superior o igual al mínimo): 100
 El intervalo [4, 10] intersección con el intervalo [0, 100] será el intervalo [0, 100]
 ~~~
 
-- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/v8.e0/app.js)
+- [.e0: ejercicio con solo programación imperativa (ME)](../5-units/1-interval/simple_algorithm/v8.e0/app.js)
   - Precondición assumida: se asume que SI existe intersección entre los 2 intervalos proporcionados por el usuario, dado que los requisitos no especifican cuál es la salida deseada en caso de que no hubiese intersección (entocnes la unión sería un conjunto de 2 intervalos, en lugar de un solo intervalo).
 
 ### 1-interval/v0

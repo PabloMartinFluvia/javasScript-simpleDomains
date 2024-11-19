@@ -1,15 +1,19 @@
  # 0 - utils
 
- ## 1 - Interval/v0.0
-
+ ## 1 - Interval
  - Escribir un código en que permita realizar [procesos relacionados con un intérvalo.](./5-units.md#1-interval).
 
- - [.0: POP con objetos sin comportamiento (L)](../z-others/0-utils/1-interval/v0.0/app.js)
+ ### v0 Interval : objects
+ - [.0: POP con objetos sin comportamiento (L)](../z-others/0-utils/1-interval/0-objects/v0.0/app.js)
  - 4 maneras de crear objetos con comportamiento (Obs: programación BASADA en objetos)
-   - [.1: dar de alta atributos y métodos públicos (en una función generadora) (L)](../z-others/0-utils/1-interval/v0.1/app.js)
-   - [.2: retornar objeto declarando e inicializando atributos y métodos + empleando <i>this</i> (en una función generadora) (L)](../z-others/0-utils/1-interval/v0.2/app.js)
-   - [.3: retornar objeto declarando e inicializando únicamente los métodos publicos, y dejando lo privado como variables locales en la función generadora (clousures) (L + ME)](../z-others/0-utils/1-interval/v0.3/app.js)
-   - [.e4: retornar objeto declarando e inicializando únicamente los métodos publicos, y dejando lo privado dentro de otro objeto <i>that</i> que es local en la función generadora (patrón factoría) (ME)](../z-others/0-utils/1-interval/v0.e4/app.js)
+   - [.1: dar de alta atributos y métodos públicos (en una función generadora) (L)](../z-others/0-utils/1-interval/0-objects/v0.1/app.js)
+   - [.2: retornar objeto declarando e inicializando atributos y métodos + empleando <i>this</i> (en una función generadora) (L)](../z-others/0-utils/1-interval/0-objects/v0.2/app.js)
+   - [.3: retornar objeto declarando e inicializando únicamente los métodos publicos, y dejando lo privado como variables locales en la función generadora (clousures) (L + ME)](../z-others/0-utils/1-interval/0-objects/v0.3/app.js)
+   - [.e4: retornar objeto declarando e inicializando únicamente los métodos publicos, y dejando lo privado dentro de otro objeto <i>that</i> que es local en la función generadora (patrón factoría) (ME)](../z-others/0-utils/1-interval/0-objects/v0.e4/app.js)
+
+### v1 Interval : constructor functions
+- [.0: con operador new y función constructora (L)](../z-others/0-utils/1-interval/1-constructor_functions/v1.0/app.js)
+- [.1: usando prototipos (L)](../z-others/0-utils/1-interval/1-constructor_functions/v1.1/app.js)
 
 # 1-texts
 ### 1-palindrome/v.0

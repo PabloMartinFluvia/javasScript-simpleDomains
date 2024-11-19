@@ -1,5 +1,7 @@
 const { Console } = require("console-mpds");
 
+// function to init objects. All memebers publics
+
 const consoleMPDS = new Console();
 const intervals = randomIntervals(10);
 const tests = [
@@ -82,6 +84,27 @@ function createInterval(min, max) {
   const result = {};
   result.min = min;
   result.max = max;
+
+  result.read = function () {
+    let error;
+    do {
+      result.min = consoleMPDS.readNumber(`Introduzca el mínimo: `);
+      result.max = consoleMPDS.readNumber(`Introduzca el máximo: `);
+      error = result.min > result.max;
+      if (error) {
+        consoleMPDS.writeln(`El mínimo debe ser menor o igual al máximo`);
+      }
+    } while (error);
+  };
+
+  result.writeln = function () {
+    result.write();
+    consoleMPDS.writeln();
+  };
+
+  result.write = function () {
+    consoleMPDS.write(result.toString());
+  };
 
   result.toString = function () {
     return `[${result.min}, ${result.max}]`;

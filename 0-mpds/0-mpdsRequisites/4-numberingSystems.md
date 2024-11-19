@@ -159,7 +159,7 @@ Formato binario de 13 >>> 5 (0):  0000 0000 0000 0000 0000 0000 0000 0000
 - 2 soluciones para comparar. No revisats, utilitza funcions globals.
   - [.0: con funciones (L)](../4-numberingSystems/5-romanNumerals/v0.0/app.js)
   - [.1: con funciones (L)](../4-numberingSystems/5-romanNumerals/v0.1/app.js)
-
+- [.2: con funcion constructora (L)](../4-numberingSystems/5-romanNumerals/v2.0//app.js)
 
 ### v2
 ~~~
