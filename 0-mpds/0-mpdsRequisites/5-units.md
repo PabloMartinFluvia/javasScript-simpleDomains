@@ -120,6 +120,7 @@ Producto sin (2/4): (1/3)
 - [.0: resultado con imperativa + fracción como objeto inicializado con función constructora (L)](../5-units/0-fraction/v0.1//app.js)
 
 ## 1-interval
+- [ver codigo que aglutina todos los ejercicios (L+ME)](./z-others.md#1---interval)
 
 ### 1-interval/0-length
 ~~~
